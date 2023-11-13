@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>사용자 정보입력</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="0" >
+        <tr>
+            <td>사용자 ID</td>
+            <td colspan="3"><input type="text" name="memberid">
+            <input type="button" value="ID중복확인"></td>
+
+        </tr>
+        <tr>
+            <td>비밀번호</td>
+            <td><input type="text" name="memberpw"></td>
+            <td>비밀번호 확인</td>
+            <td><input type="text" name="memberpw2"></td>
+        </tr>
+        <tr>
+            <td>사용자 이름</td>
+            <td colspan="3"><input type="text" name="memberName">
+            </td>
+
+        </tr>
+        <tr>
+            <td>주민등록번호</td>
+            <td colspan="3"><input type="text" name="ju">-<input type="text" name="min"></td>
+
+        </tr>
+        <tr>
+            <td>생년월일</td>
+            <td><input type="text" name="yeaR"></td>
+            <td>성별</td>
+            <td><input type="radio" name="man" value="on" checked>남자
+                <input type="radio" name="man" value="off" checked>여자
+            </td>
+        </tr>
+        <tr>
+            <td>우편번호</td>
+            <td colspan="3">
+                <input type="text" name="wo">-<input type="text" name="ho">
+                <input type="button" value="우편번호검색">
+            </td>
+        </tr>
+        <tr>
+            <td>주소</td>
+            <td colspan="3"><input type="text" name="address"></td>
+        </tr>
+        <tr>
+            <td>나머지주소</td>
+            <td colspan="3"><input type="text" name="address2"></td>
+
+        </tr>
+        <tr>
+            <td>E-Mail</td>
+            <td colspan="3">
+                <input type="text" name="address2">@
+                <select name="email2">
+                    <option value="naver">naver.com</option>
+                    <option value="daum">daum.net</option>
+                    <option value="gmail">gmail.com</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>직업</td>
+            <td colspan="3">
+                 <select name="email2">
+                    <option value="job1">컴퓨터/정보통신</option>
+                    <option value="job2">인터넷</option>
+                    <option value="job3">행정</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center">
+                <input type="submit" value="등 록">
+                <input type="reset" value="취 소">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

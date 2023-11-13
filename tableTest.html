@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>테이블연습</title>
+</head>
+<body><!--4행 5열 표-->
+    <table border="1" cellspacing="0" cellpadding="0" width="400" height="400" >
+        <tr bgcolor="#B2EBF4" align="center">
+            <!--<th>테이블에서 제목 줄: 글씨가 진하고 가운데 정렬로 변경-->
+            <th><h4>지역</h4></th>
+            <th><h4>현재기온</h4></th>
+            <th colspan="2"><h4>불쾌지수/습도(%)</h4></th>
+            <!--<th><h4>습도(%)</h4></th>열이 합쳐짐으로 삭제하거나 주석처리 -->
+            <th><h4>풍속(m/s)</h4></th>
+
+        </tr>
+        <tr align="center">
+            <td rowspan="2">서울/경기도</td>
+            <td>23</td>
+            <td>60</td>
+            <td>80</td>
+            <td>4.7</td>
+        </tr>
+        <tr align="center">
+            <!--<td>경기도</td> 합친칸을 지우거나 주석처리 하거나-->
+            <td>20</td>
+            <td>60</td>
+            <td>80</td>
+            <td>5.0</td>
+        </tr>
+        <tr align="center">
+            <td>제주도</td>
+            <td>21</td>
+            <td>65</td>
+            <td>85</td>
+            <td>3.6</td>
+        </tr>
+    </table>
+</body>
+</html>
